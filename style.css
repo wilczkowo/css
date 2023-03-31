@@ -39,11 +39,17 @@
  }
 
  li a {
+     display: block;
      color: #333;
      text-decoration: none;
+     cursor: pointer;
  }
 
- li:hover {
+ li a:hover {
      background-color: #333;
      color: #fff;
+ }
+
+ li:last-child a{
+     border-radius: 0 0 2rem 2rem;
  }
